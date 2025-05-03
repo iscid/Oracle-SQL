@@ -1,3 +1,5 @@
 -- Comprobar la instalación
 win + R
 sqlplus sys as sysdba
+SELECT status FROM v$instance;
+OPEN (Respuesta)
